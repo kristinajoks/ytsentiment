@@ -293,7 +293,7 @@ public class Program
         //Creating YT API client
         var youtubeService = new YouTubeService(new BaseClientService.Initializer()
         {
-            ApiKey = "AIzaSyAMgE1Exc-l3_6Vy0ts5fTxRxDS6uxPGiI"
+            ApiKey = YOUR_API_KEY
         });
 
         var videoIds = new List<string>();
